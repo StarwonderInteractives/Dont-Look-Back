@@ -44,5 +44,3 @@ DON'T_LOOK_BACK/                # Root folder of the game
 └─ assets/
    ├─ fonts/
    │  └─ Warix.ttf              # Warix font used throughout the game
-   └─ images/                   # Optional folder for backgrounds/UI images
-
