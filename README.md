@@ -6,8 +6,7 @@ Choices affect sanity, episodes branch, and the corridor remembers.
 ---
 
 ## 🎮 Play the Game
-🔗[Click to play the game]
-(https://starwonderinteractives.github.io/Dont-Look-Back/)
+🔗[Click to play the game](https://starwonderinteractives.github.io/Dont-Look-Back/)
 
 ---
 
