@@ -34,19 +34,15 @@ Choices affect sanity, episodes branch, and the corridor remembers.
 ## 📁 Project Structure
 
 ```
-dont-look-back/
-│
-├── index.html
-├── README.md
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   ├── story.js
-│   └── game.js
-│
-└── assets/
-    └── fonts/
-        └── Warix.ttf
+DON'T_LOOK_BACK/                # Root folder of the game
+├─ index.html                   # Main HTML file
+├─ css/
+│  └─ style.css                 # Main stylesheet (colors, fonts, layout)
+├─ js/
+│  ├─ game.js                   # Game logic (choices, sanity system, endings)
+│  └─ story.js                  # Story text, episodes, and branching
+└─ assets/
+   ├─ fonts/
+   │  └─ Warix.ttf              # Warix font used throughout the game
+   └─ images/                   # Optional folder for backgrounds/UI images
 
