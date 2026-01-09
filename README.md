@@ -6,7 +6,8 @@ Choices affect sanity, episodes branch, and the corridor remembers.
 ---
 
 ## 🎮 Play the Game
-[Add your hosted game link here]
+(Play the game here)
+[https://starwonderinteractives.github.io/Dont-Look-Back/]
 
 ---
 
@@ -43,4 +44,4 @@ DON'T_LOOK_BACK/                # Root folder of the game
 │  └─ story.js                  # Story text, episodes, and branching
 └─ assets/
    ├─ fonts/
-   │  └─ Warix.ttf              # Warix font used throughout the game
+   └─ Warix.ttf              # Warix font used throughout the game
