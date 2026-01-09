@@ -33,7 +33,8 @@ Choices affect sanity, episodes branch, and the corridor remembers.
 
 ## 📁 Project Structure
 
-``` dont-look-back/
+```
+dont-look-back/
 │
 ├── index.html
 ├── README.md
