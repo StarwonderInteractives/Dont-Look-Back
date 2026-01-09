@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DON’T LOOK BACK</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- EPISODE MENU -->
+  <div id="menu">
+    <h1>DON’T LOOK BACK</h1>
+    <p>Select Episode</p>
+
+    <button onclick="startEpisode('start')">Episode 1: The Corridor</button>
+    <button onclick="startEpisode('chapter2')">Episode 2: The Rooms</button>
+    <button onclick="startEpisode('chapter3')">Episode 3: The Presence</button>
+    <button onclick="startEpisode('chapter4')">Episode 4: The Truth</button>
+
+    <!-- ENDINGS STATS -->
+    <div id="endingsStats">
+      <h3>Endings Reached:</h3>
+      <ul id="endingsList"></ul>
+    </div>
+
+    <!-- ENDING TEXT -->
+    <div id="endingText"></div>
+  </div>
+
+  <!-- TITLE CARD -->
+  <div id="titleCard">
+    <h1 id="episodeTitle"></h1>
+  </div>
+
+  <!-- GAME -->
+  <div id="game" style="display:none;">
+    <h1>DON’T LOOK BACK</h1>
+    <p id="storyText"></p>
+    <div id="choices"></div>
+    <div id="stats">🧠 Sanity: <span id="sanity">100</span></div>
+  </div>
+
+  <script src="js/story.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
