@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Warix";
+  src: url("../assets/fonts/Warix.ttf");
+}
+
+:root {
+  --pink-soft: #FFDBE8;
+  --pink-mid: #FF94B2;
+  --red-soft: #F24455;
+  --red-main: #E5203A;
+  --red-dark: #660F24;
+  --void-dark: #2B0013;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at top, var(--red-dark), var(--void-dark));
+  color: var(--pink-soft);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Menu & Game Container */
+#menu, #game {
+  width: 650px;
+  max-width: 92%;
+  padding: 25px;
+  background: linear-gradient(
+    to bottom,
+    rgba(102, 15, 36, 0.95),
+    rgba(43, 0, 19, 0.98)
+  );
+  border: 2px solid var(--red-main);
+  box-shadow: 0 0 40px rgba(229, 32, 58, 0.3);
+}
+
+/* Title */
+h1 {
+  font-family: "Warix", monospace;
+  color: var(--pink-mid);
+  text-align: center;
+  letter-spacing: 4px;
+  text-shadow: 0 0 10px var(--red-soft);
+}
+
+/* Subtitle */
+#menu p {
+  text-align: center;
+  opacity: 0.8;
+  color: var(--pink-soft);
+}
+
+/* Story Text */
+#storyText {
+  margin: 25px 0;
+  font-family: "Warix", monospace;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  color: var(--pink-soft);
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  background: linear-gradient(
+    to right,
+    var(--red-soft),
+    var(--red-main)
+  );
+  color: var(--pink-soft);
+  border: none;
+  cursor: pointer;
+  font-family: "Warix", monospace;
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+  box-shadow: 0 0 10px rgba(242, 68, 85, 0.4);
+}
+
+button:hover {
+  background: linear-gradient(
+    to right,
+    var(--pink-mid),
+    var(--red-soft)
+  );
+  color: var(--void-dark);
+  transform: scale(1.02);
+}
+
+/* Sanity HUD */
+#stats {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 0.9rem;
+  color: var(--pink-mid);
+  opacity: 0.85;
+}
+
+/* Horror polish */
+#game, #menu {
+  animation: breathe 6s infinite ease-in-out;
+}
+
+@keyframes breathe {
+  0% { box-shadow: 0 0 30px rgba(229, 32, 58, 0.25); }
+  50% { box-shadow: 0 0 60px rgba(229, 32, 58, 0.5); }
+  100% { box-shadow: 0 0 30px rgba(229, 32, 58, 0.25); }
+}
